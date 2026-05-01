@@ -93,8 +93,6 @@ python douban_scraper.py
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
 | `total_pages` | `1` | 爬取页数（每页25部，10页共250部） |
-| `time.sleep(1)` | `1` | 请求间隔（秒），建议 ≥ 1 |
-| `timeout` | `10` | 请求超时时间 |
 | `MOVIE_LIST_FILE` | `./csv_data/...` | 输出文件路径 |
 
 ---
@@ -134,7 +132,7 @@ python douban_scraper.py
 - [Requests 官方文档](https://requests.readthedocs.io/)
 - [lxml 文档](https://lxml.de/)
 - [XPath 教程](https://www.w3schools.com/xml/xpath_intro.asp)
-- [豆瓣开发者平台](https://developers.douban.com/)
+- [豆瓣](https://www.douban.com/)
 
 ---
 
