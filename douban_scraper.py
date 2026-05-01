@@ -136,7 +136,7 @@ def main():
     print("=" * 50)
 
     all_movies = []
-    total_pages = 1  # 10 页，每页 25 部，共 250 部
+    total_pages = 2  # 10 页，每页 25 部，共 250 部 示例为2页
     # 遍历每一页
     for page in range(total_pages):
         start = page * 25
